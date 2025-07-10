@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nutrition Tracker</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">Welcome to Nutrition Tracker</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="login_failed">Login failed. Please try again.</string>
+    <string name="registration_success">Registration successful!</string>
+    <string name="username_exists">Username already exists!</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="daily_calories">Daily Calories</string>
+    <string name="calories_consumed">Calories Consumed</string>
+    <string name="calories_remaining">Calories Remaining</string>
+    <string name="add_food">Add Food</string>
+    <string name="food_log">Food Log</string>
+    <string name="logout">Logout</string>
+    <string name="goal">Goal:</string>
+    <string name="consumed">Consumed:</string>
+    <string name="remaining">Remaining:</string>
+    
+    <!-- Add Food Screen -->
+    <string name="add_food_title">Add Food</string>
+    <string name="food_name">Food Name</string>
+    <string name="calories_per_serving">Calories per Serving</string>
+    <string name="servings">Number of Servings</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="food_added">Food added successfully!</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+    
+    <!-- Food Log -->
+    <string name="delete">Delete</string>
+    <string name="no_food_logged">No food logged today</string>
+    <string name="total_calories">Total: %d calories</string>
+    
+    <!-- Profile -->
+    <string name="daily_calorie_goal">Daily Calorie Goal</string>
+    <string name="save_goal">Save Goal</string>
+    <string name="goal_updated">Goal updated successfully!</string>
+    
+</resources>
