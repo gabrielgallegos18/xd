@@ -56,7 +56,7 @@ class NutritionRepository(
         calendar.add(Calendar.DAY_OF_MONTH, 1)
         val endOfDay = calendar.timeInMillis
         
-        return foodDao.getFoodEntriesForDay(username, startOfDay, endOfDay)
+        return foodDao.getFoodEntriesForDayFlow(username, startOfDay, endOfDay)
     }
     
     suspend fun getTotalCaloriesForToday(username: String): Int {
